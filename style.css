@@ -1,0 +1,138 @@
+.sticky-top {
+    background-color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#hstyle {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 70px;
+  text-align: center;
+}
+
+#about {
+  width: 100%; 
+  height: auto;
+  background-color: black;
+  border: none; 
+  text-align: center;
+}
+
+#intro{
+    font-size: 72px;
+    font-family:Copperplate, Papyrus, fantasy;
+}
+
+#imgtcs{
+  height: auto;
+}
+
+#experience{
+    padding-bottom: 30px;
+}
+
+.navbar-collapse {
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.heading{
+    color: var(--bs-dark);
+    font-weight: bold;
+    text-align: center;
+}
+
+.carousel-inner {
+  height: auto;
+}
+
+#achievements{
+  margin-top: 15px;
+}
+
+li{
+  margin-top: 25px;
+  list-style: none;
+}
+
+
+nav {
+    float: center;
+    padding-top: 25px;
+
+}
+ nav ul li a{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+.social-icon{
+    color: var(--bs-dark);
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.carousel-caption p{
+  font-size: 1.5rem;
+}
+
+.carousel-caption h1{
+  font-size: 2.5rem;
+}
+
+@media (max-width: 768px){
+  .carousel-caption .btn{
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 576px){
+  .carousel-caption .btn{
+    font-size: 0.4rem;
+  }
+}
+
+@media (max-width: 360px){
+  .carousel-caption .btn{
+    font-size: 0.2rem;
+  }
+}
+
+@media (max-width: 768px){
+  .carousel-caption p{
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px){
+  .carousel-caption p{
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 360px){
+  .carousel-caption p{
+    font-size: 0.1rem;
+  }
+}
+
+@media (max-width: 768px){
+  .carousel-caption h1{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px){
+  .carousel-caption h1{
+    font-size: 0.8rem;
+    
+  }
+}
+
+@media (max-width: 360px){
+  .carousel-caption h1{
+    font-size: 0.3rem;
+  }
+}
+
